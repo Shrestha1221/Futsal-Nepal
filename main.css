@@ -1,0 +1,79 @@
+body{
+    background-color: white;
+    /* font: fantasy; */
+}
+
+.main-container{
+    max-width: 1445px;
+    min-width: 421px;
+}
+
+.jumbotron{
+    background-color: white;
+
+}
+/* .circle{
+    height: 200px;
+    width: 200px;
+    margin-left: 450px;
+} */
+
+.cover{
+    position: relative;
+    width: 50%;
+}
+
+
+.circle{
+    height: 200px;
+    width: 200px;
+    margin-left: 450px;
+    display: block;
+    max-width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.74);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: 0.57s ease;
+    margin-left: 450px;
+}
+
+.cover:hover .overlay{
+    width: 40%;
+    
+}
+
+h5{
+    color: rgb(22, 22, 22);
+    font-size: 30px;
+    text-align: center;
+    font-family: Jokerman;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-100%, -100%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+    color: white;
+    border: 1px solid #3e8e41;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
